@@ -1,0 +1,37 @@
+# #Functions are made for ease of coding. (they are mini programmes in programm)
+
+
+# #Looking some of the inbuild functions.
+# list1 = [1,2,4,5,3,2,1,5]
+# list1.append(0)
+# print("Maximum num is : ",max(list1))   #here max is fun
+# print("Minimum num is : ",min(list1))   #here min is fun
+# list1.append(0)
+# print(list1)
+# print("Sum of list1 is : ",sum(list1))  #here sum is fun
+
+
+# #How do fun. works : They may or may not accepts inputs/output.
+
+# #creating functins.
+
+# def welcome_msg():
+#     print("Welcome to iNeuron !!!")
+
+# welcome_msg()
+
+# def Add_fo_two_no(a,b):
+#     print("Addition is :", a+b)
+
+# Add_fo_two_no(3,5)
+
+def max_or_min(a,b):
+    if(a>b):
+        print("a is greater, ", a)
+    elif(b>a):
+        print("b is greater,",b)
+    else:
+        print("both are same")
+
+max_or_min(4, 4)
+max_or_min(8, 0)
